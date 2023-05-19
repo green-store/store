@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="hhtps://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dcdc771874.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assents/logo.png" alt="" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="vapes.html">Vapes</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </nav>
+                <img src="assents/cart.png" alt="" width="30px" height="30px">
+                <img src="assents/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row contact-details">
+                <div class="col-2 details">
+                    <span>Contactanos</span>
+            <h1>Entregamos a domicilio</h1>
+            <br>
+            <h3>Nuestras Redes Sociales</h3>
+            <br>
+            <div>
+                 <li>
+                    <i class="fa-brands fa-facebook-f"></i>
+                     <p>Carlos Green</p>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram"></i>
+                     <p>thegreenstore28</p>
+                </li>
+                <li>
+                    <i class="fa-brands fa-tiktok"></i>
+                     <p>greenstore_28</p>
+                </li>
+                <li>
+                    <i class="far fa-clock"></i>
+                     <p>Lunes a Viernes: 9:00 am - 6:00 pm</p>
+                </li>
+            </div>
+                    <a href="https://api.whatsapp.com/send?phone=+528261005671&text=Hola,%20estoy%20interesado%20en%20un%20producto" class="btn">WhatsApp &#8594</a>
+                </div>
+                <div class="col-2">
+                    <img src="assents/image2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------brands------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="assents/logo-raw.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="assents/logo-trufflez.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="assents/logo-backpack-boyz.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="assents/logo-cookies.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="assents/logo-paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------footer------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <!--
+                    <div class="footer-col-1">
+                    <h3>Descarga Nuestra App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="app-logo">
+                        <img src="assents/play-store.png" alt="">
+                        <img src="assents/app-store.png" alt="">
+                    </div>
+                </div>
+                -->
+
+                <div class="footer-col-2">
+                    <img src="assents/logo-white.png" alt="">
+
+                </div>
+                <!--
+                div class="footer-col-4">
+                    <h3>Siguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>TikTok</li>
+                    </ul>
+                </div>
+                --->
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023</p>
+        </div>
+    </div>
+
+    <!------------js for toggle menu------------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight = "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+
+        }
+    </script>
+
+
+</body>
+
+</html>
